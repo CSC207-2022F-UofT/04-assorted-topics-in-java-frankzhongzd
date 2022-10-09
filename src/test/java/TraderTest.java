@@ -13,7 +13,7 @@ public class TraderTest {
 
     @Before
     public void setUp() {
-        trader = new Trader<>(10);
+        trader = new Trader<> (10);
     }
 
     @Test(timeout = 50)
